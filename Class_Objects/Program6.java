@@ -32,7 +32,7 @@ class StaticMethod{
 	}
 	
 	static void method1(){
-		int x = 10;
+		int x = 10;		//Independent to Object.
 		//static int y = 20;	//error : illegal start of expression
 		System.out.println("In Static Method M1");
 	}
